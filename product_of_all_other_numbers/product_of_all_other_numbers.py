@@ -2,11 +2,31 @@
 Input: a List of integers
 Returns: a List of integers
 '''
+#Brute Force
+# def product_of_all_other_numbers(arr):
+#     # Your code here
+#     #create new list
+#     new_list = []
+#     #iterate through the list:
+#     for i in range(len(arr)):
+#         #at each point create two sub-lists values on right and values on left
+#         left_list = arr[:i]
+#         right_list = arr[i+1:]
+#         l_product = 1
+#         r_product = 1
+#         #iterate through the sublists, multiplying all values together
+#         for num in left_list:
+#             l_product *= num
+#         for num in right_list:
+#             r_product *= num
+#         #multiply products from two sublists and append final product to new lists
+#         new_list.append(l_product * r_product)
+#     return new_list
+
 def product_of_all_other_numbers(arr):
-    # Your code here
-
-    pass
-
+    new_array = []
+    iterator
+    for i in range (len(arr)):
 
 if __name__ == '__main__':
     # Use the main function to test your implementation

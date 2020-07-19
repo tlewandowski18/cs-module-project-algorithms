@@ -8,6 +8,7 @@ Returns: an integer
   #Do I have the objective correct?
   #Can we assume the data is always good?
 
+Naive Approach
 def single_number(arr):
     # Your code here
     #create an empty dictionary to hold first pass count
@@ -26,6 +27,9 @@ def single_number(arr):
     for int, count in ints.items():
         if count == 1:
             return int
+
+
+        
     
 
 
